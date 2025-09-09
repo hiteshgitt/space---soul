@@ -13,15 +13,15 @@
                 <div class="footer-columns">
                     <!-- Column 1: Logo -->
                     <div class="footer-column footer-logo">
-                        <h3 class="footer-logo-text">klmnko.</h3>
+                        <h3 class="footer-logo-text">Space&Soul.</h3>
                     </div>
                     
                     <!-- Column 2: Address -->
                     <div class="footer-column footer-address">
                         <h4 class="footer-heading">Address</h4>
                         <div class="footer-address-content">
-                            <p>Based in 54295, Trier</p>
-                            <p>Germany</p>
+                            <a href="https://maps.google.com/?q=Mumbai,Maharashtra,India" target="_blank" class="footer-link">Mumbai, Maharashtra</a>
+                            <a href="https://maps.google.com/?q=India" target="_blank" class="footer-link">India</a>
                         </div>
                     </div>
                     
@@ -29,8 +29,8 @@
                     <div class="footer-column footer-contact">
                         <h4 class="footer-heading">Contact Info</h4>
                         <div class="footer-contact-content">
-                            <p>+49 123 456 7890</p>
-                            <p>info@klmnko.com</p>
+                            <a href="tel:+910000000000" class="footer-link">+91 0000000000</a>
+                            <a href="mailto:info@spaceandsoul.com" class="footer-link">info@spaceandsoul.com</a>
                         </div>
                     </div>
                     
@@ -38,7 +38,7 @@
                     <div class="footer-column footer-cta">
                         <h4 class="footer-heading">Get In Touch</h4>
                         <div class="footer-cta-content">
-                            <a href="#" class="footer-contact-btn">Contact Us</a>
+                            <a href="#" class="footer-contact-btn scramble-button">Contact Us</a>
                         </div>
                     </div>
                 </div>
