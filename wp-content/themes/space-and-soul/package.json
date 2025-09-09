@@ -1,0 +1,31 @@
+{
+  "name": "space-and-soul-theme",
+  "version": "1.0.0",
+  "description": "A modern, performance-optimized WordPress theme with Elementor integration",
+  "author": "Hitesh Lendi",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "lint:js": "eslint assets/js/*.js",
+    "lint:css": "stylelint assets/css/*.css",
+    "lint": "npm run lint:js && npm run lint:css",
+    "build": "npm run lint && npm run minify",
+    "minify": "npm run minify:js && npm run minify:css",
+    "minify:js": "terser assets/js/main.js -o assets/js/main.min.js",
+    "minify:css": "cleancss -o assets/css/style.min.css style.css"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "stylelint": "^14.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "terser": "^5.0.0",
+    "clean-css-cli": "^5.0.0"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "elementor",
+    "performance",
+    "security",
+    "seo"
+  ]
+}
